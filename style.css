@@ -1,5 +1,5 @@
 body {
-    background-color: #07051D;
+    background-color: #000000;
 }
 *{
     margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 .cabecalho {
-    background-color: #07051D;
+    background-color: #000000;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -26,11 +26,11 @@ body {
     font-family:'Outfit', sans-serif;
 }
 .cybertech{
-    position:absolute;
+    position: absolute;
     width: 550px;
     height: 142px;
-    left: 175px;
-    top: 168px;
+    left: 263px;
+    top: 172px;
   
     font-style: normal;
     font-weight: 700;
@@ -41,12 +41,11 @@ body {
     
 }
 .texto2{
-    position: absolute;
+position: absolute;
 width: 378px;
 height: 142px;
-left: 175px;
-top: 310px;
-
+left: 263px;
+top: 314px;
 font-family: 'Outfit';
 font-style: normal;
 font-weight: 700;
@@ -76,27 +75,13 @@ top: 216px;
 background: #2BFFF2;
 filter: blur(153px);
 }
-   .sobrenos {
-    position: absolute;
-width: 332px;
-height: 44px;
-left: 900px;
-top: 497px;
-
-font-family: 'Outfit';
-font-weight: 700;
-font-size: 64px;
-line-height: 81px;
-
-color: #FFFFFF;
-   }
-   
-   .texto3 {
-    position: absolute;
+ 
+.texto3 {
+position: absolute;
 width: 545px;
 height: 120px;
-left: 900px;
-top: 583px;
+left: 260px;
+top: 432px;
 
 font-family: 'Outfit';
 font-style: normal;
@@ -257,7 +242,7 @@ color: #FFFFFF;
 width: 112px;
 height: 112px;
 left: 328px;
-top: 1786px;
+top: 1786px; 
 }
 
  
