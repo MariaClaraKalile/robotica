@@ -43,11 +43,12 @@ top: 20px;
     top: 172px;
   
     font-style: normal;
+    font-family:'Outfit', sans-serif;
     font-weight: 700;
     font-size: 110px;
     line-height: 139px;
     color: white;
-   font-family:'Outfit', sans-serif;
+   
     
 }
 .texto2{
@@ -139,20 +140,11 @@ top: 1256.97px;
 background: #171422;
 border-radius: 22px;
    }
-  
-
- .botão-img{
-    position: absolute;
-width: 110px;
-height: 50px;
-left: 250px;
-top: 530px;
- }
 
  .robo-img{
     position: absolute;
-    width: 349px;
-    height: 349px;
+    width: 340px;
+    height: 340px;
     left: 828px;
     top: 200px;
  }
@@ -185,3 +177,41 @@ left: 928px;
 top: 758px;
 
  }
+ button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #320894, #8269BB);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: 'Outfit';
+    font-size: 17px;
+    font-style: bold;
+    padding: 0.6em 1.5em;
+    position: absolute;
+    left: 260px;
+    top: 540px;
+  
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+    
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+ 
+   }
