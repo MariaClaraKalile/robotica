@@ -22,19 +22,36 @@ body {
 height: 51  px;
 left: 268px;
 top: 20px;
-
 }
 
-.cabecalho-lista-item{
-    display: inline-block;
+.cabecalho-lista-item
+    nav {
+        position: absolute;
+        top: 43px;
+        right: 150px;
+        font-style: normal;
+        font-family:'Outfit', sans-serif;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 0 0 60px;
+    }
+
+    nav a {
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+        font-style: normal;
+        font-family:'Outfit', sans-serif;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
     
-    left: 369px;
-    margin: 0 30px;
-    font-size: 20px;
-    font-family:'Outfit', sans-serif;
-    
-   
-}
 .cybertech{
     position: absolute;
     width: 550px;
@@ -215,3 +232,105 @@ top: 758px;
     }
  
    }
+
+   .oqé {
+        position: absolute;
+        width: 197px;
+        height: 30px;
+        left: 362px;
+        top: 882px;
+        
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        
+        background: linear-gradient(90deg, #320894 38.14%, #8269BB 74.55%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-emphasis-color: transparent;
+       }
+
+       .texto-oqé {
+        position: absolute;
+width: 324px;
+height: 108px;
+left: 308px;
+top: 940px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+
+.robo-lampada{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 585px;
+    top: 1056px;
+
+}
+
+.pq {
+    position: absolute;
+    width: 290px;
+    height: 30px;
+    left: 860px;
+    top: 881px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    
+    background: linear-gradient(90deg, #320894 3.01%, #8269BB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+
+}
+
+.texto-pq{
+    position: absolute;
+    width: 324px;
+    height: 108px;
+    left: 823px;
+    top: 940px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+    
+}
+
+.robo-canto {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1096px;
+    top: 1056px;
+}
+
+.linhas {
+    position: absolute;
+    width: 520.5px;
+    height: 294px;
+    left: 437.5px;
+    top: 1170px;
+}
+
+
