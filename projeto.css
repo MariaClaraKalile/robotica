@@ -1,0 +1,54 @@
+body {
+    background-color: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.cabecalho-imagem{
+    width: 53px;
+    position: absolute;
+
+height: 51  px;
+left: 268px;
+top: 20px;
+}
+
+.cabecalho-lista-item
+    nav {
+        position: absolute;
+        top: 43px;
+        right: 150px;
+        font-style: normal;
+        font-family:'Outfit', sans-serif;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 0 0 60px;
+    }
+
+    nav a {
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+        font-style: normal;
+        font-family:'Outfit', sans-serif;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+    
