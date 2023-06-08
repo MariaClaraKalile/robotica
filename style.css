@@ -132,32 +132,7 @@ line-height: 30px;
 color: #FFFFFF;
 
    }
-   .retangulop{
-    position: absolute;
-width: 273px;
-height: 394px;
-left: 55px;
-top: 969px;
-background:#1A182E
-;
-border-radius: 22px;
-   } .retangulomenor {
-    position: absolute;
-width: 273px;
-height: 86.43px;
-left: 55px;
-top: 1224px;
-background: #171422;
-   } .retangulomenor2{
-    position: absolute;
-width: 273px;
-height: 106.03px;
-left: 55px;
-top: 1256.97px;
-background: #171422;
-border-radius: 22px;
-   }
-
+   
  .robo-img{
     position: absolute;
     width: 340px;
