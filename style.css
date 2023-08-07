@@ -308,6 +308,13 @@ color: #FFFFFF;
     top: 1170px;
 }
 
+
+
+
+
+
+
+
 .card {
     --font-color: #323232;
     --bg-color: #e0e0e0;
@@ -395,6 +402,29 @@ color: #FFFFFF;
 }
 
 
+
+.cardinicio {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  color: #141414;
+  background-color: #fff;
+  text-align: center;
+}
+
+.img-projeto {
+  background-color: #250e5a;
+
+}
+
+.card__title {
+  margin: 1em;
+
+}
 
 
 
