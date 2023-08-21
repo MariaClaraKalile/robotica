@@ -400,20 +400,12 @@ color: #FFFFFF;
     left: 60px;
     top: 40px;
 }
-
-
-
 .cardiniciot {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 23% 23% 23%;
   align-items: center;
   text-align: center;
 }
-
-
-
-
-
 
 
 
