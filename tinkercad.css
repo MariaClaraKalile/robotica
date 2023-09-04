@@ -42,7 +42,7 @@ top: 20px;
         text-transform: uppercase;
         color: #FFFFFF;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 13px;
         text-decoration: none;
         font-style: normal;
         font-family:'Outfit', sans-serif;
@@ -91,5 +91,7 @@ top: 20px;
         margin: 13px 0 0 10px;
         color: rgb(31, 31, 31);
         font-size: 15px;
+        font-family: 'Outfit';
+        font-style: normal;
       }
       
