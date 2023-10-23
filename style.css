@@ -408,7 +408,13 @@ color: #FFFFFF;
   text-align: center;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+}
 
 
-
--
