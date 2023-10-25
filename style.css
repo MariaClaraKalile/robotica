@@ -401,20 +401,13 @@ color: #FFFFFF;
     left: 60px;
     top: 40px;
 }
-.cardiniciot {
+.cardinicio {
   display: grid;
   grid-template-columns: 23% 23% 23%;
   align-items: center;
   text-align: center;
 }
 
-*{
-  box-sizing: border-box;
-}
 
-body{
-  display: flex;
-  align-items: center;
-}
 
 
