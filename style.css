@@ -18,10 +18,9 @@ body {
 .cabecalho-imagem{
     width: 53px;
     position: absolute;
-
-height: 51  px;
-left: 268px;
-top: 20px;
+    height: 51px;
+    left: 268px;
+    top: 20px;
 }
 
 .cabecalho-lista-item
@@ -59,11 +58,10 @@ top: 20px;
     height: 142px;
     left: 263px;
     top: 172px;
-  
     font-style: normal;
     font-family:'Outfit', sans-serif;
-    font-weight: 700;
-    font-size: 110px;
+    font-weight: 600;
+    font-size: 150px;
     line-height: 139px;
     color: white;
    
@@ -72,8 +70,8 @@ top: 20px;
 .texto2{
 position: absolute;
 width: 378px;
-height: 142px;
-left: 263px;
+height: 145px;
+left: 273px;
 top: 314px;
 font-family: 'Outfit';
 font-style: normal;
@@ -89,13 +87,13 @@ color: #FFFFFF;
 position: absolute;
 width: 545px;
 height: 120px;
-left: 260px;
-top: 432px;
+left: 273px;
+top: 420px;
 
 font-family: 'Outfit';
 font-style: normal;
 font-weight: 300;
-font-size: 24px;
+font-size: 30px;
 line-height: 30px;
 
 color: #FFFFFF;
@@ -138,7 +136,7 @@ color: #FFFFFF;
     position: absolute;
     width: 340px;
     height: 340px;
-    left: 828px;
+    left: 1100px;
     top: 200px;
  }
 
@@ -181,8 +179,8 @@ top: 758px;
     font-style: bold;
     padding: 0.6em 1.5em;
     position: absolute;
-    left: 260px;
-    top: 540px;
+    left: 270px;
+    top: 570px;
   
    }
    
@@ -407,6 +405,45 @@ color: #FFFFFF;
   align-items: center;
   text-align: center;
 }
+
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  position: relative;
+  width: 780px;
+  left: 350px;
+  top: 1600px;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  flex: 0 0 auto;
+  width: 780px;
+  height: 500px;
+  scroll-snap-align: center;
+  background-color: #250e5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  font-weight: bold;
+  grid-template-columns: 50% 50% 50%;
+  
+}
+
+.item:nth-child(odd) {
+  background-color: #250e5a;
+}
+
+
 
 
 
